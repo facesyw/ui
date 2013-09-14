@@ -1,0 +1,36 @@
+package ui;
+
+import java.io.IOException;
+import javax.servlet.http.*;
+
+@SuppressWarnings("serial")
+public class Main_manu_SYW extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws IOException {
+		resp.setContentType("text/html");
+		resp.getWriter().println("<html>");
+		resp.getWriter().println("<body>");
+
+		resp.getWriter().println("<div style=\"width:235px;height:420px;border:1px solid #000;background:#F8FBFE;border-radius: 7px;\">");
+
+		resp.getWriter().println("<br>&nbsp&nbsp&nbsp<font face=\"Britannic Bold\" size=\"3\" color=\"#000099\">");
+		resp.getWriter().println("We Suggest -</font>");
+		resp.getWriter().println("<br><br><a href=\"http://www.shopyourway.com/uk-style-by-french-connection-women-s-retro-oval-sunglasses-white/151506511\"><img src= \"http://s4.sywcdn.net/getImage?url=http%3a%2f%2fc.shld.net%2frpx%2fi%2fs%2fi%2fspin%2fimage%2fspin_prod_878212912&t=Product&w=250&h=250&qlt=100&mrg=1&s=1116cd563dd85371e5c1fcc53f5f71d4\" width= \"73\" height= \"73\" border=\"1\"  /></a>");
+
+		resp.getWriter().println("<a href=\"http://www.shopyourway.com/mia-c20795-tribal-platform-wedge-sandal-womens-shoes-multi-size-10/234290759?sid=ISm21800224x000533\"><img src= \"http://s4.sywcdn.net/getImage?url=http%3a%2f%2fc.shld.net%2frpx%2fi%2fs%2fpi%2fmp%2f27813%2f101069414%3fsrc%3dhttp%253A%252F%252Fd3d71ba2asa5oz.cloudfront.net%252F33000242%252Fimages%252Fjmr-c20795mu-a.jpg%26d%3d4bdec9a5fe37efb960b0aa864988de9bae1effd4&t=Product&w=250&h=250&qlt=100&mrg=1&s=9f940aefd61226163abdb9d3535b086e\" width= \"73\" height= \"73\" border=\"1\"  /></a>");
+
+		resp.getWriter().println("<a href=\"http://www.shopyourway.com/city-triangles-juniors-one-shoulder-bandage-dress/199683497\"><img src= \"http://s1.sywcdn.net/getImage?url=http%3a%2f%2fc.shld.net%2frpx%2fi%2fs%2fi%2fspin%2fimage%2fspin_prod_731348812&t=Product&w=250&h=250&qlt=100&mrg=1&s=b049c8743edd4a3a099238177921e4ba\" width= \"73\" height= \"73\" border=\"1\"  /></a>");
+
+		resp.getWriter().println("<br><br>&nbsp&nbsp&nbsp<font face=\"Britannic Bold\" size=\"3\" color=\"#000099\">");
+		resp.getWriter().println("You Like -</font>");
+		resp.getWriter().println("<br><br><center><img src= \"https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn1/18859_298482690754_1834783_n.jpg\" width= \"130\" height= \"130\"  /></center>");
+
+		resp.getWriter().println("<center><a href=\"https://www.facebook.com/pages/%D7%A9%D7%95%D7%A4%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%A1%D7%9A-%D7%9B%D7%A1%D7%A3-%D7%9C%D7%A4%D7%A1%D7%99%D7%9B%D7%95%D7%9C%D7%95%D7%92/298479540754\">");
+		resp.getWriter().println("Link </a></center>"); 
+		resp.getWriter().println("<br><center><font face=\"Britannic Bold\" size=\"3\" color=\"#000099\">");
+		resp.getWriter().println("<a href=\"main_app\"> Go see what we have prepared for you  </a></font></center>");
+
+
+		resp.getWriter().println("</div>");
+	}
+}
